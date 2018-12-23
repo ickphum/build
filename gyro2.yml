@@ -1,0 +1,640 @@
+---
+- !!perl/hash:GridThing
+  centred_on: ''
+  centred_position: 1
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 4
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 0
+  name: base
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 1
+    - -0.5
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 77
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: check_red_green64
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  centred_on: base
+  centred_position: 1
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 2
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 1
+  name: base wall
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 2
+    - -0.5
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 63
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: check_red_green64
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  centred_on: base
+  centred_position: 2
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 2
+    - 4
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 3
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 2
+  name: base roof
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 3
+    - -0.5
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 76
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: check_red_green64
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  centred_on: base
+  centred_position: 2
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 0.25
+    - 0.125
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -8
+    - 6
+    - -8
+  grid_x_count: 128
+  grid_z_count: 128
+  id: 3
+  name: outer parapet
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 5
+    - 3.375
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 76
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: whitegrid
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  centred_on: base
+  centred_position: 1
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.625
+    - 0.25
+    - 0.125
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -8
+    - 6
+    - -8
+  grid_x_count: 128
+  grid_z_count: 128
+  id: 4
+  name: inner parapet
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 5
+    - 3.375
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 83
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: whitegrid
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  base: 1
+  centred_on: base
+  centred_position: 2
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.8125
+    - 1
+    - 0.0625
+  direction: 0
+  grid_cell_size: 0.0625
+  grid_offset_v:
+    - -1.796875
+    - 2
+    - 10.796875
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 5
+  legs: 8
+  name: colonnade
+  needs_compile: 0
+  offset_v:
+    - 0.140625
+    - 2
+    - 14.359375
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 96
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 11
+  texture: whitegrid
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  centred_on: base
+  centred_position: 0
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 4.5
+    - 1.5
+    - 1
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 6
+  name: gate sill
+  needs_compile: 0
+  offset_v:
+    - -2
+    - 1
+    - 1
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 4
+  ringradius: 24
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: check_red_green64
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  base: 1
+  centred_on: base
+  centred_position: 0
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 3.5
+    - 10
+    - 3.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 7
+  legs: 27
+  name: gate frame
+  needs_compile: 0
+  offset_v:
+    - -2.5
+    - 1
+    - 1
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 4
+  ringradius: 21
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 2
+  texture: whitegrid
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 8
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 4
+    - 12
+    - 24
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 8
+  legs: 0
+  name: top arch NS
+  needs_compile: 0
+  offset_v:
+    - -2.5
+    - 3
+    - -10.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: ''
+  state: 0
+  steps: 32
+  texture: check_magenta_yellow64
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 8
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 4
+    - 12
+    - 24
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - -9
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 9
+  legs: 0
+  name: bottom arch NS
+  needs_compile: 0
+  offset_v:
+    - -2.5
+    - -9
+    - -10.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 180
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: ''
+  state: 0
+  steps: 32
+  texture: check_magenta_yellow64
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 8
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 24
+    - 12
+    - 4
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - -9
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 10
+  legs: 0
+  name: bottom arch EW
+  needs_compile: 0
+  offset_v:
+    - -12.5
+    - -9
+    - -0.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 180
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: ''
+  state: 0
+  steps: 32
+  texture: check_blue_cyan64
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 8
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 24
+    - 12
+    - 4
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 3
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 11
+  legs: 0
+  name: top arch EW
+  needs_compile: 0
+  offset_v:
+    - -12.5
+    - 3
+    - -0.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: ''
+  state: 0
+  steps: 32
+  texture: check_blue_cyan64
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  centred_on: base
+  centred_position: 0
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 8.5
+    - 0.5
+  grid_cell_size: 0.25
+  grid_offset_v:
+    - -8
+    - 2
+    - -8
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 12
+  name: gate back
+  needs_compile: 0
+  offset_v:
+    - -1.75
+    - 2
+    - 1.25
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 4
+  ringradius: 47.1
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: check_red_blue64
+  texture_infofactor: 1
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  base: 2
+  centred_on: base
+  centred_position: 0
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 5
+    - 1
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 13
+  legs: 5
+  name: gate
+  needs_compile: 0
+  offset_v:
+    - -2
+    - 1
+    - 1
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 4
+  ringradius: 23.1
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: ''
+  state: 0
+  steps: 32
+  texture: planks
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch

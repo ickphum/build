@@ -1,0 +1,1 @@
+-I/oldroot/etc/perl -I/oldroot/usr/local/lib/perl/5.10.1 -I/oldroot/usr/local/share/perl/5.10.1 -I/oldroot/usr/lib/perl5 -I/oldroot/usr/share/perl5 -I/oldroot/usr/lib/perl/5.10 -I/oldroot/usr/share/perl/5.10 -I/oldroot/usr/local/lib/site_perl

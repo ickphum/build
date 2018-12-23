@@ -1,0 +1,1130 @@
+---
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 3.5
+    - 2
+    - 0.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 0
+  name: Cuboid0
+  needs_compile: 0
+  offset_v:
+    - -7.5
+    - 1
+    - -5.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 12
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 1
+  name: Cuboid1
+  needs_compile: 0
+  offset_v:
+    - -7.5
+    - 1
+    - -5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 3
+    - 2
+    - 0.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 2
+  name: Cuboid2
+  needs_compile: 0
+  offset_v:
+    - -7
+    - 1
+    - 6.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 9
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 3
+  name: Cuboid3
+  needs_compile: 0
+  offset_v:
+    - -4.5
+    - 1
+    - -2.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 6.5
+    - 2
+    - 0.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 4
+  name: Cuboid4
+  needs_compile: 0
+  offset_v:
+    - -1.5
+    - 1
+    - 6.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 12
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 5
+  name: Cuboid5
+  needs_compile: 0
+  offset_v:
+    - 4.5
+    - 1
+    - -5.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 6
+    - 2
+    - 0.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 6
+  name: Cuboid6
+  needs_compile: 0
+  offset_v:
+    - -1.5
+    - 1
+    - -5.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 3.5
+    - 2
+    - 0.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 7
+  name: Cuboid7
+  needs_compile: 0
+  offset_v:
+    - -1.5
+    - 1
+    - -2.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 6
+    - 2
+    - 0.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 8
+  name: Cuboid8
+  needs_compile: 0
+  offset_v:
+    - -4
+    - 1
+    - 0.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 2.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 9
+  name: Cuboid9
+  needs_compile: 0
+  offset_v:
+    - -1.5
+    - 1
+    - -5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 3
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 10
+  name: Cuboid10
+  needs_compile: 0
+  offset_v:
+    - -1.5
+    - 1
+    - 3.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 3
+    - 2
+    - 0.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 11
+  name: Cuboid11
+  needs_compile: 0
+  offset_v:
+    - 1.5
+    - 1
+    - 3.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 12
+  legs: 1
+  name: Arch12
+  needs_compile: 0
+  offset_v:
+    - -4
+    - 1
+    - 3.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 13
+  legs: 1
+  name: Arch13
+  needs_compile: 0
+  offset_v:
+    - -4
+    - 1
+    - 6.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 14
+  legs: 1
+  name: Arch14
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 1
+    - 3.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 15
+  legs: 1
+  name: Arch15
+  needs_compile: 0
+  offset_v:
+    - 2
+    - 1
+    - 0.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 16
+  legs: 1
+  name: Arch16
+  needs_compile: 0
+  offset_v:
+    - 2
+    - 1
+    - -2.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 17
+  legs: 1
+  name: Arch17
+  needs_compile: 0
+  offset_v:
+    - -4
+    - 1
+    - -2.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 18
+  legs: 1
+  name: Arch18
+  needs_compile: 0
+  offset_v:
+    - -4
+    - 1
+    - -5.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 19
+  legs: 1
+  name: Arch19
+  needs_compile: 0
+  offset_v:
+    - -7
+    - 1
+    - -2.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 20
+  legs: 1
+  name: Arch20
+  needs_compile: 0
+  offset_v:
+    - -7
+    - 1
+    - 0.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2.5
+    - 2
+    - 0.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 21
+  legs: 1
+  name: Arch21
+  needs_compile: 0
+  offset_v:
+    - -7
+    - 1
+    - 3.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 2.5
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 22
+  legs: 1
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -1.5
+    - 1
+    - 1
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 2.5
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 23
+  legs: 1
+  name: Arch23
+  needs_compile: 0
+  offset_v:
+    - 1.5
+    - 1
+    - 1
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 2.5
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 24
+  legs: 1
+  name: Arch24
+  needs_compile: 0
+  offset_v:
+    - 1.5
+    - 1
+    - -2
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 2.5
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 25
+  legs: 1
+  name: Arch25
+  needs_compile: 0
+  offset_v:
+    - -1.5
+    - 1
+    - -2
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 2.5
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 26
+  legs: 1
+  name: Arch26
+  needs_compile: 0
+  offset_v:
+    - 1.5
+    - 1
+    - -5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 2.5
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 27
+  legs: 1
+  name: Arch27
+  needs_compile: 0
+  offset_v:
+    - 1.5
+    - 1
+    - 4
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 2
+    - 2.5
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 28
+  legs: 1
+  name: Arch28
+  needs_compile: 0
+  offset_v:
+    - -4.5
+    - 1
+    - -5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: yellowbrick
+  texture_infofactor: 0
+  texture_infotile: 1
+  type: Arch

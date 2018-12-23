@@ -1,0 +1,207 @@
+---
+max:
+  x: ~
+  y: ~
+origin_x: 0
+origin_y: 0
+path: []
+scale: 1
+things:
+  - control_points: []
+    end:
+      - 120
+      - 210
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 120
+            - 90
+          -
+            - 120
+            - 210
+        line_points:
+          - 120
+          - 90
+          - 120
+          - 210
+    start:
+      - 120
+      - 90
+    tool: Line
+  - control_points: []
+    end:
+      - 240
+      - 90
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 120
+            - 90
+          -
+            - 240
+            - 90
+        line_points:
+          - 120
+          - 90
+          - 240
+          - 90
+    start:
+      - 120
+      - 90
+    tool: Line
+  - control_points: []
+    end:
+      - 240
+      - 90
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 240
+            - 90
+          -
+            - 240
+            - 90
+        line_points:
+          - 240
+          - 90
+          - 240
+          - 90
+    start:
+      - 240
+      - 90
+    tool: Line
+  - control_points: []
+    end:
+      - 233
+      - 128
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 240
+            - 90
+          -
+            - 233
+            - 128
+        line_points:
+          - 240
+          - 90
+          - 233
+          - 128
+    start:
+      - 240
+      - 90
+    tool: Line
+  - control_points: []
+    end:
+      - 218
+      - 155
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 233
+            - 128
+          -
+            - 218
+            - 155
+        line_points:
+          - 233
+          - 128
+          - 218
+          - 155
+    start:
+      - 233
+      - 128
+    tool: Line
+  - control_points: []
+    end:
+      - 203
+      - 178
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 218
+            - 155
+          -
+            - 203
+            - 178
+        line_points:
+          - 218
+          - 155
+          - 203
+          - 178
+    start:
+      - 218
+      - 155
+    tool: Line
+  - control_points: []
+    end:
+      - 159
+      - 206
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 187
+            - 190
+          -
+            - 159
+            - 206
+        line_points:
+          - 187
+          - 190
+          - 159
+          - 206
+    start:
+      - 187
+      - 190
+    tool: Line
+  - control_points: []
+    end:
+      - 187
+      - 190
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 203
+            - 178
+          -
+            - 187
+            - 190
+        line_points:
+          - 203
+          - 178
+          - 187
+          - 190
+    start:
+      - 203
+      - 178
+    tool: Line
+  - control_points: []
+    end:
+      - 120
+      - 210
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 159
+            - 206
+          -
+            - 120
+            - 210
+        line_points:
+          - 159
+          - 206
+          - 120
+          - 210
+    start:
+      - 159
+      - 206
+    tool: Line

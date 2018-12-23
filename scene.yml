@@ -1,0 +1,1428 @@
+---
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2
+    - 6
+    - 6
+  direction: 2
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 2
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 16
+  grid_z_count: 16
+  gridcountx: 4
+  gridcounty: 2
+  gridcountz: 2
+  gridspacex: 5
+  gridspacey: 3
+  gridspacez: 2
+  id: 0
+  legs: 1
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -16
+    - 1
+    - -16
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 20
+  texture: 0
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  axis: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 0.5
+    - 12.25
+  grid_cell_size: 0.25
+  grid_offset_v:
+    - -16
+    - 13
+    - -16
+  grid_x_count: 128
+  grid_z_count: 128
+  id: 1
+  name: Shape2
+  needs_compile: 0
+  offset_v:
+    - -5.25
+    - 14.25
+    - -6
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 270
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: chord
+  state: 0
+  stretch: 1
+  texture: 0
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 32
+    - 1.25
+    - 10
+  grid_cell_size: 0.25
+  grid_offset_v:
+    - -16
+    - 13
+    - -25.25
+  grid_x_count: 128
+  grid_z_count: 128
+  id: 2
+  name: Cuboid3
+  needs_compile: 0
+  offset_v:
+    - -16
+    - 13
+    - -16
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: 0
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2
+    - 20
+    - 2
+  grid_cell_size: 2
+  grid_offset_v:
+    - -11.5
+    - 1
+    - -2.5
+  grid_x_count: 8
+  grid_z_count: 8
+  id: 3
+  name: Cuboid5
+  needs_compile: 0
+  offset_v:
+    - -7.5
+    - 1
+    - 9.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: 0
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 12
+    - 13
+    - 2
+  direction: 0
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 2
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 16
+  grid_z_count: 16
+  gridcountx: 3
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 5
+  gridspacey: 2
+  gridspacez: 4
+  id: 4
+  legs: 4
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -16
+    - 1
+    - -16
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.388235294117647
+    - 0
+  square: 1
+  state: 0
+  steps: 10
+  texture: 0
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  axis: 1
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1.5
+    - 2.5
+    - 2.5
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -4
+    - 14.25
+    - -14.75
+  grid_x_count: 16
+  grid_z_count: 16
+  id: 5
+  name: Stairs
+  needs_compile: 0
+  offset_v:
+    - -0.875
+    - 14.25
+    - -12.25
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 4
+  ringradius: 4
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  steps: 30
+  texture: griddouble
+  tile: 1
+  type: Stairs
+- !!perl/hash:GridThing
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1.5
+    - 2.5
+    - 1.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -4
+    - 14.25
+    - -14.75
+  grid_x_count: 16
+  grid_z_count: 16
+  id: 6
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -0.875
+    - 14.25
+    - -11.75
+  orient: 1
+  pattern: Single
+  ringangle: 0
+  ringcount: 4
+  ringradius: 4
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: none
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  axis: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.25
+    - 16.75
+    - -11.375
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 1
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 2
+  id: 7
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - -0.875
+    - 16.75
+    - -10.625
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: ''
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.25
+    - 16.75
+    - -11.375
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 1
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 2
+  id: 8
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - -0.875
+    - 16.75
+    - -12.75
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: 1
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 2
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 0.125
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.25
+    - 16.75
+    - -11.375
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 1
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 11
+  gridspacey: 2
+  gridspacez: 10
+  id: 9
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - -1.75
+    - 16.75
+    - -11.875
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: 1
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 2
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 0.125
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.25
+    - 16.75
+    - -11.375
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 1
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 11
+  gridspacey: 2
+  gridspacez: 10
+  id: 10
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - 0.375
+    - 16.75
+    - -11.875
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: ''
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.25
+    - 17.75
+    - -11.375
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 4
+  gridcounty: 1
+  gridcountz: 1
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 10
+  id: 11
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - -2.125
+    - 17.75
+    - -9.375
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: ''
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 2
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 0.125
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.25
+    - 17.75
+    - -13.125
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 1
+  gridcounty: 1
+  gridcountz: 4
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 10
+  id: 12
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - -3
+    - 17.75
+    - -13.125
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: 1
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1.125
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.25
+    - 17.75
+    - -14.5
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 4
+  gridcounty: 1
+  gridcountz: 1
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 10
+  id: 13
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - -2.125
+    - 17.75
+    - -14.125
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: 1
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 2
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 0.125
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -0.875
+    - 17.75
+    - -14.5
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 1
+  gridcounty: 1
+  gridcountz: 4
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 10
+  id: 14
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - 1.625
+    - 17.75
+    - -13.125
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: ''
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 3.875
+    - 0.02
+    - 3.875
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -4.125
+    - 17.75
+    - -15.75
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 15
+  name: Cuboid16
+  needs_compile: 0
+  offset_v:
+    - -2.125
+    - 17.75
+    - -13.125
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: whitebrick
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  axis: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.25
+    - 18.75
+    - -11.375
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 6
+  gridcounty: 1
+  gridcountz: 1
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 10
+  id: 16
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - -3.375
+    - 18.75
+    - -8.125
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: ''
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 2
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 0.125
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -3.125
+    - 18.75
+    - -13.25
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 1
+  gridcounty: 1
+  gridcountz: 6
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 10
+  id: 17
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - -4.25
+    - 18.75
+    - -14.375
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: 1
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 2
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 0.125
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -1.25
+    - 18.75
+    - -14.5
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 1
+  gridcounty: 1
+  gridcountz: 6
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 10
+  id: 18
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - 2.875
+    - 18.75
+    - -14.375
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: ''
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  axis: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.5
+    - 18.75
+    - -14.5
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 6
+  gridcounty: 1
+  gridcountz: 1
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 10
+  id: 19
+  name: Shape
+  needs_compile: 0
+  offset_v:
+    - -3.375
+    - 18.75
+    - -15.25
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  shape: truss
+  state: 0
+  stretch: 1
+  swaptexture: ''
+  swapx: 1
+  swapy: 1
+  texture: whitebrick
+  tile: 1
+  type: Shape
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 6.375
+    - 0.02
+    - 6.375
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -4.25
+    - 18.75
+    - -15.625
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 20
+  name: Cuboid21
+  needs_compile: 0
+  offset_v:
+    - -3.375
+    - 18.75
+    - -14.375
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: whitebrick
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 0
+    - 0.125
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -4.125
+    - 17.75
+    - -15.75
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 21
+  name: Cuboid22
+  needs_compile: 1
+  offset_v:
+    - -1
+    - 17.75
+    - -14.125
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 64
+  texture: whitebrick
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  base: 4
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1.375
+    - 1
+    - 0.125
+  direction: 0
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.125
+    - 17.75
+    - -13.625
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 1
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 2
+  gridspacey: 2
+  gridspacez: 10
+  id: 22
+  legs: 1
+  name: lower room arch
+  needs_compile: 0
+  offset_v:
+    - -0.875
+    - 17.75
+    - -11.875
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 6
+  texture: whitebrick
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 4
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1.375
+  direction: 2
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.125
+    - 17.75
+    - -13.625
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 1
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 10
+  id: 23
+  legs: 1
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -0.875
+    - 17.75
+    - -11.875
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 6
+  texture: whitebrick
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1.375
+    - 1
+    - 0.125
+  direction: 0
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.125
+    - 17.75
+    - -13.125
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 3
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 30
+  id: 24
+  legs: 4
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -2.125
+    - 17.75
+    - -13.125
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 8
+  texture: whitebrick
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1.375
+  direction: 2
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -2.125
+    - 17.75
+    - -13.125
+  grid_x_count: 32
+  grid_z_count: 32
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 30
+  gridspacey: 2
+  gridspacez: 10
+  id: 25
+  legs: 4
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -2.125
+    - 17.75
+    - -13.125
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 8
+  texture: whitebrick
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1.375
+  direction: 2
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -4.75
+    - 18.75
+    - -15.25
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 5
+  gridspacex: 50
+  gridspacey: 2
+  gridspacez: 10
+  id: 26
+  legs: 4
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -3.375
+    - 18.75
+    - -14.375
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 8
+  texture: whitebrick
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1.375
+    - 1
+    - 0.125
+  direction: 0
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -4.75
+    - 18.75
+    - -15.25
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 5
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 50
+  id: 27
+  legs: 4
+  name: Arch28
+  needs_compile: 0
+  offset_v:
+    - -3.375
+    - 18.75
+    - -14.375
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 8
+  texture: whitebrick
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 4
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1.375
+    - 1
+    - 0.125
+  direction: 0
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -4.75
+    - 18.75
+    - -15.25
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 3
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 10
+  gridspacey: 2
+  gridspacez: 30
+  id: 28
+  legs: 1
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -2.125
+    - 18.75
+    - -13.125
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 8
+  texture: whitebrick
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 4
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.125
+    - 1
+    - 1.375
+  direction: 2
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -4.75
+    - 18.75
+    - -15.25
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 30
+  gridspacey: 2
+  gridspacez: 10
+  id: 29
+  legs: 1
+  name: Arch30
+  needs_compile: 0
+  offset_v:
+    - -2.125
+    - 18.75
+    - -13.125
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: 1
+  state: 0
+  steps: 8
+  texture: whitebrick
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 8.125
+    - 0.125
+    - 8.125
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -8.25
+    - 19.75
+    - -19.25
+  grid_x_count: 128
+  grid_z_count: 128
+  id: 30
+  name: Cuboid31
+  needs_compile: 0
+  offset_v:
+    - -4.25
+    - 19.75
+    - -15.25
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: whitebrick
+  tile: 1
+  type: Cuboid

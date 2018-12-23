@@ -1,0 +1,178 @@
+---
+- !!perl/hash:GridThing
+  angle: 0
+  axis: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 7
+    - 0.5
+    - 7
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 0
+  name: Prism
+  needs_compile: 0
+  offset_v:
+    - -7.5
+    - 1
+    - -8.5
+  pattern: Single
+  ratiobottom: 1
+  ratiotop: 0.91
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  sides: 6
+  smooth: ''
+  state: 128
+  texture: griddouble
+  tile: 1
+  type: Prism
+- !!perl/hash:GridThing
+  angle: 0
+  axis: 1
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 3
+    - 1
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1.5
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 1
+  name: Prism
+  needs_compile: 0
+  offset_v:
+    - -4.5
+    - 1.5
+    - -5.5
+  orient: 1
+  pattern: Ring
+  ratiobottom: 1
+  ratiotop: 0.88
+  ringangle: 0
+  ringcount: 6
+  ringradius: 5
+  ringstart: 1
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  sides: 15
+  smooth: ''
+  state: 128
+  texture: griddouble
+  tile: 1
+  type: Prism
+- !!perl/hash:GridThing
+  axis: 1
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 0.5
+    - 1
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 2
+  name: Stairs
+  needs_compile: 0
+  offset_v:
+    - -4.5
+    - 1
+    - -2.25
+  orient: 1
+  pattern: Single
+  ringangle: 0
+  ringcount: 6
+  ringradius: 5
+  ringstart: 1
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 128
+  steps: 11
+  texture: griddouble
+  tile: 1
+  type: Stairs
+- !!perl/hash:GridThing
+  angle: 0
+  axis: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 7
+    - 0.25
+    - 7
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 4.5
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 3
+  name: Prism
+  needs_compile: 0
+  offset_v:
+    - -7.5
+    - 4.5
+    - -8.5
+  pattern: Single
+  ratiobottom: 0.88
+  ratiotop: 0.88
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  sides: 6
+  smooth: ''
+  state: 128
+  texture: griddouble
+  tile: 1
+  type: Prism

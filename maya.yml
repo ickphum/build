@@ -1,0 +1,1029 @@
+---
+- !!perl/hash:GridThing
+  color_v: &1
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 8
+    - 3
+    - 8
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 0
+  name: Cuboid0
+  needs_compile: 0
+  offset_v:
+    - -3.5
+    - 10
+    - -4
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v: *1
+  dim_v:
+    - 12
+    - 3
+    - 12
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 1
+  name: Cuboid1
+  needs_compile: 0
+  offset_v:
+    - -5.5
+    - 7
+    - -6
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v: *1
+  dim_v:
+    - 16
+    - 3
+    - 16
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 2
+  name: Cuboid2
+  needs_compile: 0
+  offset_v:
+    - -7.5
+    - 4
+    - -8
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v: *1
+  dim_v:
+    - 20
+    - 3
+    - 20
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 3
+  name: Cuboid3
+  needs_compile: 0
+  offset_v:
+    - -9.5
+    - 1
+    - -10
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  axis: 1
+  climb: 0
+  color_v: *1
+  dim_v:
+    - 3
+    - 12
+    - 8
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 4
+  name: Stairs
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 1
+    - -4
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 4
+  ringradius: 16
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  steps: 32
+  texture: griddouble
+  tile: 1
+  type: Stairs
+- !!perl/hash:GridThing
+  axis: 1
+  climb: 0
+  color_v: *1
+  dim_v:
+    - 0.5
+    - 12
+    - 8
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 5
+  name: Stairs5
+  needs_compile: 0
+  offset_v:
+    - 2
+    - 1
+    - -4
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 2
+  ringradius: 17
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  steps: 1
+  texture: griddouble
+  tile: 1
+  type: Stairs
+- !!perl/hash:GridThing
+  axis: 1
+  climb: 0
+  color_v: *1
+  dim_v:
+    - 0.5
+    - 12
+    - 8
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 6
+  name: Stairs6
+  needs_compile: 0
+  offset_v:
+    - -1.5
+    - 1
+    - -4
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 2
+  ringradius: 17
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  steps: 1
+  texture: griddouble
+  tile: 1
+  type: Stairs
+- !!perl/hash:GridThing
+  color_v: *1
+  dim_v:
+    - 0.5
+    - 3
+    - 0.5
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 10
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 7
+  gridspacey: 2
+  gridspacez: 17
+  id: 7
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -1.5
+    - 10
+    - -4.5
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  axis: 1
+  color_v: *1
+  dim_v:
+    - 8
+    - 12
+    - 0.5
+  direction: 3
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 1
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 7
+  gridspacey: 2
+  gridspacez: 7
+  id: 8
+  name: Stairs
+  needs_compile: 0
+  offset_v:
+    - 5
+    - 1
+    - -2
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  steps: 1
+  texture: griddouble
+  tile: 1
+  type: Stairs
+- !!perl/hash:GridThing
+  axis: 1
+  color_v: *1
+  dim_v:
+    - 8
+    - 12
+    - 0.5
+  direction: 2
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 1
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 7
+  gridspacey: 2
+  gridspacez: 7
+  id: 9
+  name: Stairs9
+  needs_compile: 0
+  offset_v:
+    - -12
+    - 1
+    - -2
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  steps: 1
+  texture: griddouble
+  tile: 1
+  type: Stairs
+- !!perl/hash:GridThing
+  color_v: *1
+  dim_v:
+    - 0.5
+    - 3
+    - 0.5
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 10
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 17
+  gridspacey: 2
+  gridspacez: 7
+  id: 10
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -4
+    - 10
+    - -2
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  angle: 0
+  axis: 1
+  color_v: *1
+  dim_v:
+    - 5
+    - 2
+    - 3.5
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 13
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 11
+  name: Prism
+  needs_compile: 0
+  offset_v:
+    - -2
+    - 13
+    - -2.5
+  pattern: Single
+  ratiobottom: 1
+  ratiotop: 0.71
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  sides: 4
+  smooth: ''
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Prism
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 33
+    - 0.5
+    - 80
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 12
+  name: Box12
+  needs_compile: 0
+  offset_v:
+    - -16
+    - 1
+    - -16
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: none
+  tile: 1
+  type: Box
+  wall: 1
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 39
+    - 0.5
+    - 86
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 13
+  name: Box14
+  needs_compile: 0
+  offset_v:
+    - -19
+    - 1
+    - -19
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: none
+  tile: 1
+  type: Box
+  wall: 1
+- !!perl/hash:GridThing
+  base: 1
+  color_v: &2
+    - 0.486274509803922
+    - 0.466666666666667
+    - 0.466666666666667
+  dim_v:
+    - 3
+    - 1
+    - 4.5
+  direction: 2
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -8
+    - 1
+    - 55.5
+  grid_x_count: 32
+  grid_z_count: 32
+  id: 14
+  legs: 0
+  name: Arch16
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 1
+    - 63
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: ''
+  state: 0
+  steps: 24
+  texture: griddouble
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v: *2
+  dim_v:
+    - 0.25
+    - 1.25
+    - 4.75
+  direction: 2
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -3.5
+    - 1
+    - 61
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 1
+  gridspacex: 24
+  gridspacey: 2
+  gridspacez: 2
+  id: 15
+  legs: 0
+  name: Arch16
+  needs_compile: 0
+  offset_v:
+    - -1.125
+    - 1
+    - 62.875
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: ''
+  state: 0
+  steps: 24
+  texture: grid
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  color_v: *2
+  dim_v:
+    - 0.5
+    - 0.625
+    - 0.5
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -3.5
+    - 1
+    - 61
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 2
+  gridspacex: 24
+  gridspacey: 2
+  gridspacez: 36
+  id: 16
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -1.25
+    - 1
+    - 62.75
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: grid
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  angle: 0
+  axis: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 9
+    - 1
+    - 9
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -15
+    - 1
+    - 4
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 34
+  gridspacey: 2
+  gridspacez: 32
+  id: 17
+  name: Prism
+  needs_compile: 0
+  offset_v:
+    - -12.5
+    - 1
+    - 17.5
+  pattern: Grid
+  ratiobottom: 1
+  ratiotop: 0.82
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  sides: 4
+  smooth: ''
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Prism
+- !!perl/hash:GridThing
+  axis: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2
+    - 1
+    - 5.5
+  direction: 0
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -15
+    - 1
+    - 4
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 34
+  gridspacey: 2
+  gridspacez: 32
+  id: 18
+  name: Stairs
+  needs_compile: 0
+  offset_v:
+    - -9
+    - 1
+    - 24.5
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 1
+  steps: 6
+  texture: griddouble
+  tile: 1
+  type: Stairs
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 2
+    - 0.5
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -15
+    - 2
+    - 4
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 6
+  gridspacey: 2
+  gridspacez: 3
+  id: 19
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -10
+    - 2
+    - 20
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 2
+    - 0.5
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -15
+    - 2
+    - 4
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 6
+  gridspacey: 2
+  gridspacez: 3
+  id: 20
+  name: Cuboid20
+  needs_compile: 0
+  offset_v:
+    - 7
+    - 2
+    - 20
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 2
+    - 0.5
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -15
+    - 2
+    - -12
+  grid_x_count: 64
+  grid_z_count: 128
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 6
+  gridspacey: 2
+  gridspacez: 3
+  id: 21
+  name: Cuboid21
+  needs_compile: 0
+  offset_v:
+    - -10
+    - 2
+    - 36
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 2
+    - 0.5
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -15
+    - 2
+    - -12
+  grid_x_count: 64
+  grid_z_count: 128
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 6
+  gridspacey: 2
+  gridspacez: 3
+  id: 22
+  name: Cuboid22
+  needs_compile: 0
+  offset_v:
+    - 7
+    - 2
+    - 36
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 2
+    - 0.5
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -15
+    - 2
+    - -44
+  grid_x_count: 64
+  grid_z_count: 256
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 6
+  gridspacey: 2
+  gridspacez: 3
+  id: 23
+  name: Cuboid23
+  needs_compile: 0
+  offset_v:
+    - 7
+    - 2
+    - 52
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 2
+    - 0.5
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -15
+    - 2
+    - -44
+  grid_x_count: 64
+  grid_z_count: 256
+  gridcountx: 2
+  gridcounty: 1
+  gridcountz: 3
+  gridspacex: 6
+  gridspacey: 2
+  gridspacez: 3
+  id: 24
+  name: Cuboid24
+  needs_compile: 0
+  offset_v:
+    - -10
+    - 2
+    - 52
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: griddouble
+  tile: 1
+  type: Cuboid

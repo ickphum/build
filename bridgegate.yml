@@ -1,0 +1,190 @@
+---
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 32
+    - 8
+    - 16
+  grid_cell_size: 4
+  grid_offset_v:
+    - -128
+    - 1
+    - -128
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 0
+  name: Cuboid0
+  needs_compile: 0
+  offset_v:
+    - -20
+    - 1
+    - -8
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: none
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2
+    - 12
+    - 2
+  grid_cell_size: 2
+  grid_offset_v:
+    - -64
+    - 1
+    - -64
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 1
+  name: Cuboid1
+  needs_compile: 0
+  offset_v:
+    - -4
+    - 1
+    - 8
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: none
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 2
+    - 12
+    - 2
+  grid_cell_size: 2
+  grid_offset_v:
+    - -64
+    - 1
+    - -64
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 2
+  name: Cuboid2
+  needs_compile: 0
+  offset_v:
+    - -14
+    - 1
+    - 8
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: none
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5625
+    - 0.0625
+    - 0.25
+  edgex: ''
+  edgey: ''
+  edgez: ''
+  grid_cell_size: 0.0625
+  grid_offset_v:
+    - -0.8125
+    - 1
+    - 7.125
+  grid_x_count: 64
+  grid_z_count: 64
+  gridcountx: 1
+  gridcounty: 26
+  gridcountz: 1
+  gridspacex: 2
+  gridspacey: 5
+  gridspacez: 3
+  id: 3
+  name: Ladder
+  needs_compile: 0
+  offset_v:
+    - 0.4375
+    - 1
+    - 8
+  pattern: Grid
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 0
+  texture: none
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 10
+    - 3
+    - 14
+  direction: 2
+  grid_cell_size: 1
+  grid_offset_v:
+    - -32
+    - 9
+    - -32
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 4
+  legs: 0
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -13
+    - 9
+    - 8
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: ''
+  state: 0
+  steps: 59
+  texture: none
+  tile: 1
+  type: Arch

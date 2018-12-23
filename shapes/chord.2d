@@ -1,0 +1,83 @@
+---
+max:
+  x: 0.5
+  y: 1
+origin_x: 0
+origin_y: 0
+path:
+  - 0
+  - 0
+  - 0.5
+  - 0.5
+  - 0
+  - 1
+  - 0
+  - 0
+scale: 1
+things:
+  - control_points: []
+    end:
+      - 90
+      - 90
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 60
+            - 60
+          -
+            - 90
+            - 90
+        line_points:
+          - 60
+          - 60
+          - 90
+          - 90
+    start:
+      - 60
+      - 60
+    tool: Line
+  - control_points: []
+    end:
+      - 60
+      - 120
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 90
+            - 90
+          -
+            - 60
+            - 120
+        line_points:
+          - 90
+          - 90
+          - 60
+          - 120
+    start:
+      - 90
+      - 90
+    tool: Line
+  - control_points: []
+    end:
+      - 60
+      - 60
+    nbr_points: 10
+    segments:
+      - handles:
+          -
+            - 60
+            - 120
+          -
+            - 60
+            - 60
+        line_points:
+          - 60
+          - 120
+          - 60
+          - 60
+    start:
+      - 60
+      - 120
+    tool: Line

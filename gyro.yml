@@ -1,0 +1,345 @@
+---
+- !!perl/hash:GridThing
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 4
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 0
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 1
+    - 0
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 76
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 129
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 1
+    - 3
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 1
+  name: Cuboid1
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 2
+    - 0.5
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 70
+  ringradius: 19
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 128
+  texture: griddarklines
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 0.5
+    - 1
+    - 0.5
+  grid_cell_size: 0.25
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 128
+  grid_z_count: 128
+  id: 2
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -0.75
+    - 2
+    - 1.75
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 32
+  ringradius: 47
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 128
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 2
+    - 4
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 2
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 3
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 3
+    - 0
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 76
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 128
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 0.25
+    - 0.25
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -8
+    - 5
+    - -8
+  grid_x_count: 128
+  grid_z_count: 128
+  id: 4
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 5
+    - 1.875
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 76
+  ringradius: 95
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 128
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 0.25
+    - 0.25
+  grid_cell_size: 0.125
+  grid_offset_v:
+    - -8
+    - 5
+    - -8
+  grid_x_count: 128
+  grid_z_count: 128
+  id: 5
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 5
+    - 1.875
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 52
+  ringradius: 65
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 128
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 4
+    - 4
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 6
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 1
+    - 0
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 76
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 90
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 128
+  texture: griddouble
+  tile: 1
+  type: Cuboid
+- !!perl/hash:GridThing
+  climb: 0
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 1
+    - 4
+    - 4
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 7
+  name: Cuboid
+  needs_compile: 0
+  offset_v:
+    - -1
+    - 1
+    - 0
+  orient: 1
+  pattern: Ring
+  ringangle: 0
+  ringcount: 76
+  ringradius: 20
+  ringstart: 0
+  ringstretchx: 1
+  ringstretchy: 1
+  rotatex: 0
+  rotatey: 0
+  rotatez: 90
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  state: 128
+  texture: griddouble
+  tile: 1
+  type: Cuboid

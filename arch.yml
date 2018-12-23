@@ -1,0 +1,155 @@
+---
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 16
+    - 13
+    - 4
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 0
+  legs: 8
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -7
+    - 1
+    - -8
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v: &1
+    - 1
+    - 1
+    - 0.168627450980392
+  square: ''
+  state: 0
+  steps: 30
+  texture: simple
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 15
+    - 12.5
+    - 3
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 1
+  legs: 8
+  name: Arch1
+  needs_compile: 0
+  offset_v:
+    - -6.5
+    - 1
+    - -7.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v: *1
+  square: ''
+  state: 0
+  steps: 30
+  texture: simple
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 1
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 14
+    - 12
+    - 2
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 2
+  legs: 8
+  name: Arch2
+  needs_compile: 0
+  offset_v:
+    - -6
+    - 1
+    - -7
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v: *1
+  square: ''
+  state: 0
+  steps: 30
+  texture: simple
+  tile: 1
+  type: Arch
+- !!perl/hash:GridThing
+  base: 13
+  color_v:
+    - 1
+    - 1
+    - 1
+  dim_v:
+    - 13
+    - 11.5
+    - 1
+  direction: 0
+  grid_cell_size: 0.5
+  grid_offset_v:
+    - -16
+    - 1
+    - -16
+  grid_x_count: 64
+  grid_z_count: 64
+  id: 3
+  legs: 9
+  name: Arch
+  needs_compile: 0
+  offset_v:
+    - -5.5
+    - 1
+    - -6.5
+  pattern: Single
+  rotatex: 0
+  rotatey: 0
+  rotatez: 0
+  selected_color_v:
+    - 0.8
+    - 0.8
+    - 0
+  square: ''
+  state: 0
+  steps: 11
+  texture: whitebrick
+  tile: 1
+  type: Arch
